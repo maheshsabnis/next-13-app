@@ -1,4 +1,7 @@
+import Link from 'next/link'
 import './globals.css'
+import  './../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import CommpanPage from './common'
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +15,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+      {/* <table className='table table-bordered table-striped'>
+           <thead>
+            <tr>
+               <td><Link href='/'>Home</Link></td>
+               <td><Link href='/about'>About</Link></td>
+            </tr>
+           </thead>
+         </table> */}
+         <CommpanPage></CommpanPage>
+        {children}
+        </body>
     </html>
   )
 }
