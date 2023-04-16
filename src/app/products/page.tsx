@@ -13,11 +13,11 @@ import DataGridComponent from '../reusablecomponents/datagridcomponent';
 }
 
 const ProductsPage = async () => {
-  const result = await getProducts();
+  //const result = await getProducts();
   return (
     <div className='container'>
        <h1>The Product Page</h1>
-       <DataGridComponent dataSource={result[0]}></DataGridComponent> 
+       {/* <DataGridComponent dataSource={result[0]}></DataGridComponent>  */}
     </div>
   )
 }

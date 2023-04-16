@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import './globals.css'
-import  './../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import  './../../node_modules/bootstrap/dist/css/bootstrap.min.css';``
 import CommpanPage from './common'
 
 export const metadata = {

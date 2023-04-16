@@ -24,3 +24,4 @@ Products.push (new ProductInfo(8,'Prod-018', 'USB', 'Electronics', 'LS-Technos',
 Products.push (new ProductInfo(9,'Prod-019', 'Flash Drive', 'Electronics', 'TS-Technos','64 GB Data Sore',4400));
 Products.push (new ProductInfo(10,'Prod-020', 'Keyboard', 'Electronics', 'MS-Technos','105 Keys Gaming Controller',740));
 Products.push (new ProductInfo(11,'Prod-021', 'Laptop Holder', 'Electronics', 'LS-Technos','45 Degree Inclination',7400));
+Products.push (new ProductInfo(12,'Prod-021', 'Laptop Holder', 'Electronics', 'LS-Technos','45 Degree Inclination',7400));

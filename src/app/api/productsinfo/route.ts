@@ -3,6 +3,9 @@ import ExcuteQuery from "../../../../dataaccess/db";
 import { ProductInfo } from "../../../../database/productsdb";
 export async function GET(req: NextRequest){
    const data = await ExcuteQuery("Select * from ProductInfo");
+   console.log('====================================');
+   console.log(`After Query Executed ${data}`);
+   console.log('====================================');
    return NextResponse.json(data); 
 }
 

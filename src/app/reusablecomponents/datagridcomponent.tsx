@@ -1,7 +1,7 @@
 import React from 'react'
 import './../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 type dataProps = {
-    dataSource:any[]
+    dataSource:Array<any>
 };
 const DataGridComponent = (props:dataProps) => {
   if(props.dataSource === undefined || props.dataSource.length === 0) {
